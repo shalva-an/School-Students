@@ -2,6 +2,12 @@
 
 ** Make any necessary changes/edits to the existing code to complete the following deliverables **
 
+# Getting Started:
+
+1. Run bundle install
+2. migrate
+3. seed
+
 # Deliverables:
 
 - A School has a name and address
