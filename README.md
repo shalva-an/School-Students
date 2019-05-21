@@ -27,7 +27,8 @@
 - The School show page should list all of the school's students
 
   - Each student should link to that student's show page
-
+  - User should be able to delete a Student from the School's show page
+  
 - The Student show page should show their name, age, and the school they're apart of
 
 - User should be able to create a student and select which school the student belongs to
