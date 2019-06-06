@@ -34,3 +34,9 @@
 - User should be able to create a student and select which school the student belongs to
 
 - User should be able to edit a student
+
+# BONUS:
+- Add a search form to the School show page that allows a user to search for a student by name
+- Add a custom route to a "support" page that has a "contact us" form
+  - Form should ask for the User to enter their name, email, and reason for contacting
+  - Once the form is submitted, it routes the User to the School index page and displays a message that says "Thank you for contacting us"
