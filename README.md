@@ -16,8 +16,6 @@
 
 - A Student has a name, age, and school
 
-  - User should not be able to add students without a name or age
-
 - A Student belongs to a School
 
 - The School index page should list all schools
@@ -39,4 +37,4 @@
 - Add a search form to the School show page that allows a user to search for a student by name
 - Add a custom route to a "support" page that has a "contact us" form
   - Form should ask for the User to enter their name, email, and reason for contacting
-  - Once the form is submitted, it routes the User to the School index page and displays a message that says "Thank you for contacting us"
+  - Once the form is submitted, it routes the User to the School index page 
