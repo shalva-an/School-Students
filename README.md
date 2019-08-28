@@ -38,3 +38,10 @@
 - Add a custom route to a "support" page that has a "contact us" form
   - Form should ask for the User to enter their name, email, and reason for contacting
   - Once the form is submitted, it routes the User to the School index page 
+  
+ ## EXTRA BONUS: 
+ - Add a Teacher model
+  - A Teacher has many Students
+  - A Student has many Teachers
+  - A `Student` and `Teacher` are joined by a `Course`
+ - Build out full CRUD for `Teacher` and `Course`
