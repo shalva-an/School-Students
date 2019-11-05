@@ -10,11 +10,11 @@
 
 # Deliverables:
 
-- A School has a name and address
+- A School must have a *unique* name and an address
 
 - A School has many Students
 
-- A Student has a name, age, and school
+- A Student must have a *unique* full_name and an age
 
 - A Student belongs to a School
 
