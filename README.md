@@ -10,11 +10,11 @@
 
 # Deliverables:
 
-- A School must have a *unique* name and an address
+- A School has a name and an address
 
 - A School has many Students
 
-- A Student must have a *unique* full_name and an age
+- A Student has a full_name and an age
 
 - A Student belongs to a School
 
@@ -34,12 +34,14 @@
 - User should be able to edit a student
 
 # BONUS:
+
 - Add a search form to the School show page that allows a user to search for a student by name
 - Add a custom route to a "support" page that has a "contact us" form
   - Form should ask for the User to enter their name, email, and reason for contacting
-  - Once the form is submitted, it routes the User to the School index page 
+  - Once the form is submitted, it routes the User to the School index page
   
  ## EXTRA BONUS: 
+ 
  - Add a Teacher model
   - A Teacher has many Students
   - A Student has many Teachers
