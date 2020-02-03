@@ -11,3 +11,8 @@ School.create!(name: "NYU", address:"New York, NY 10003")
 School.create!(name: "John Jay", address:"524 W 59th St, New York, NY 10019")
 School.create!(name: "City College", address:"160 Convent Ave, New York, NY 10031")
 School.create!(name: "Columbia University", address:"116th St & Broadway, New York, NY 10027")
+
+
+Student.create!(name: "Adam Aaronson", age: 15, school_id: School.all[0].id)
+Student.create!(name: "Brett Barrow", age: 16, school_id: School.all[0].id)
+Student.create!(name: "Carla Clark",age: 17, school_id: School.all[0].id)

@@ -211,3 +211,272 @@ Completed 200 OK in 325ms (Views: 310.4ms | ActiveRecord: 1.1ms)
   ↳ db/seeds.rb:13
   [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
   ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mSchool Create (2.3ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Flatiron School"], ["address", "11 Broadway"], ["created_at", "2020-02-03 18:02:24.176628"], ["updated_at", "2020-02-03 18:02:24.176628"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mSchool Create (0.9ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "NYU"], ["address", "New York, NY 10003"], ["created_at", "2020-02-03 18:02:24.183988"], ["updated_at", "2020-02-03 18:02:24.183988"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mSchool Create (1.6ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Jay"], ["address", "524 W 59th St, New York, NY 10019"], ["created_at", "2020-02-03 18:02:24.189208"], ["updated_at", "2020-02-03 18:02:24.189208"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mSchool Create (0.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "City College"], ["address", "160 Convent Ave, New York, NY 10031"], ["created_at", "2020-02-03 18:02:24.196418"], ["updated_at", "2020-02-03 18:02:24.196418"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Create (0.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Columbia University"], ["address", "116th St & Broadway, New York, NY 10027"], ["created_at", "2020-02-03 18:02:24.201040"], ["updated_at", "2020-02-03 18:02:24.201040"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Load (0.6ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mSchool Create (0.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Flatiron School"], ["address", "11 Broadway"], ["created_at", "2020-02-03 18:02:53.901591"], ["updated_at", "2020-02-03 18:02:53.901591"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mSchool Create (0.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "NYU"], ["address", "New York, NY 10003"], ["created_at", "2020-02-03 18:02:53.908346"], ["updated_at", "2020-02-03 18:02:53.908346"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Jay"], ["address", "524 W 59th St, New York, NY 10019"], ["created_at", "2020-02-03 18:02:53.912771"], ["updated_at", "2020-02-03 18:02:53.912771"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "City College"], ["address", "160 Convent Ave, New York, NY 10031"], ["created_at", "2020-02-03 18:02:53.920176"], ["updated_at", "2020-02-03 18:02:53.920176"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Columbia University"], ["address", "116th St & Broadway, New York, NY 10027"], ["created_at", "2020-02-03 18:02:53.923506"], ["updated_at", "2020-02-03 18:02:53.923506"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Load (0.4ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateStudents (20190430152005)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (5.6ms)[0m  [1m[35mDROP TABLE "students"[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.7ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190430152005"]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateStudents (20190430152005)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190430152005_create_students.rb:3
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "students" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190430152005_create_students.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190430152005"]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddForeignKeyToStudents (20200203181033)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200203181033"]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mSchool Create (1.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Flatiron School"], ["address", "11 Broadway"], ["created_at", "2020-02-03 18:11:31.263852"], ["updated_at", "2020-02-03 18:11:31.263852"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mSchool Create (0.4ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "NYU"], ["address", "New York, NY 10003"], ["created_at", "2020-02-03 18:11:31.269458"], ["updated_at", "2020-02-03 18:11:31.269458"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mSchool Create (0.6ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Jay"], ["address", "524 W 59th St, New York, NY 10019"], ["created_at", "2020-02-03 18:11:31.274117"], ["updated_at", "2020-02-03 18:11:31.274117"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "City College"], ["address", "160 Convent Ave, New York, NY 10031"], ["created_at", "2020-02-03 18:11:31.277583"], ["updated_at", "2020-02-03 18:11:31.277583"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Columbia University"], ["address", "116th St & Broadway, New York, NY 10027"], ["created_at", "2020-02-03 18:11:31.281158"], ["updated_at", "2020-02-03 18:11:31.281158"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Load (0.4ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddForeignKeyToStudents (20200203181033)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.8ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20200203181033"]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddForeignKeyToStudents (20200203181033)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "students" ADD "school_id" integer[0m
+  ↳ db/migrate/20200203181033_add_foreign_key_to_students.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200203181033"]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kater/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mSchool Create (1.4ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Flatiron School"], ["address", "11 Broadway"], ["created_at", "2020-02-03 18:17:39.298287"], ["updated_at", "2020-02-03 18:17:39.298287"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mSchool Create (0.7ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "NYU"], ["address", "New York, NY 10003"], ["created_at", "2020-02-03 18:17:39.304906"], ["updated_at", "2020-02-03 18:17:39.304906"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mSchool Create (0.4ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Jay"], ["address", "524 W 59th St, New York, NY 10019"], ["created_at", "2020-02-03 18:17:39.309899"], ["updated_at", "2020-02-03 18:17:39.309899"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mSchool Create (0.5ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "City College"], ["address", "160 Convent Ave, New York, NY 10031"], ["created_at", "2020-02-03 18:17:39.314679"], ["updated_at", "2020-02-03 18:17:39.314679"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Create (0.6ms)[0m  [1m[32mINSERT INTO "schools" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Columbia University"], ["address", "116th St & Broadway, New York, NY 10027"], ["created_at", "2020-02-03 18:17:39.319723"], ["updated_at", "2020-02-03 18:17:39.319723"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mSchool Load (0.6ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSchool Load (0.2ms)[0m  [1m[34mSELECT  "schools".* FROM "schools" WHERE "schools"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:16
+  [1m[36mStudent Create (0.9ms)[0m  [1m[32mINSERT INTO "students" ("name", "age", "created_at", "updated_at", "school_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Adam Aaronson"], ["age", 15], ["created_at", "2020-02-03 18:17:39.356462"], ["updated_at", "2020-02-03 18:17:39.356462"], ["school_id", 1]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSchool Load (0.3ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mSchool Load (0.2ms)[0m  [1m[34mSELECT  "schools".* FROM "schools" WHERE "schools"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:17
+  [1m[36mStudent Create (0.5ms)[0m  [1m[32mINSERT INTO "students" ("name", "age", "created_at", "updated_at", "school_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Brett Barrow"], ["age", 16], ["created_at", "2020-02-03 18:17:39.364016"], ["updated_at", "2020-02-03 18:17:39.364016"], ["school_id", 1]]
+  ↳ db/seeds.rb:17
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mSchool Load (0.3ms)[0m  [1m[34mSELECT "schools".* FROM "schools"[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mSchool Load (0.1ms)[0m  [1m[34mSELECT  "schools".* FROM "schools" WHERE "schools"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mStudent Create (0.4ms)[0m  [1m[32mINSERT INTO "students" ("name", "age", "created_at", "updated_at", "school_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Carla Clark"], ["age", 17], ["created_at", "2020-02-03 18:17:39.370729"], ["updated_at", "2020-02-03 18:17:39.370729"], ["school_id", 1]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
